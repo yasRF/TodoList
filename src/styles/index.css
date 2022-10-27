@@ -1,12 +1,35 @@
-
-/* 
-
-    You can write your own styles here...
+.App {
+    text-align: center;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+}
+input {
+    color:black;
+    padding: 10px;
+    margin-right: 10px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+ul {
+    list-style: none;
+
+}
+li{
+    margin: 12px 0;
+}
+button{
+    font-size: 10px;
+    margin-left: 8px;
+    border:none;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+
+};
+button-delete{
+    font-size:10px;
+    margin-left: 8px;
+    border: none;
+    color: red;
+}
